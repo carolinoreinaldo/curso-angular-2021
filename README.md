@@ -10,9 +10,8 @@ npm i json-server
 
 comentário : vai instalar o json-server na aplicação
 
-=================================================
-Configurando o back-end
-=================================================
+# Configurando o back-end 
+
  - Dentro do package.json foi criado o comando de inicialização :
 "scripts": {
     "start": "json-server --watch db.json --port 5000"
@@ -21,9 +20,9 @@ Configurando o back-end
 - Para inicializar o backend utilizar o comando : 
 npm start
 
-=================================================
-Criação da Aplicação Angular
-=================================================
+
+# Criação da Aplicação Angular 
+
 npm i -g @angular/cli
 ng new minha-app --minimal //minimal retira algumas coisas instalando apenas o necessário
 
@@ -31,8 +30,8 @@ ng new minha-app --minimal //minimal retira algumas coisas instalando apenas o n
 npm start
 
 - A portal padrão é a 4200 ==> http://localhost:4200
-=================================================
-Comandos úteis
-=================================================
+
+# Comandos úteis
+
 Alt + Shift + pra baixo -> Copia a linha
 Alt + Shift + F -> Formata o documento
